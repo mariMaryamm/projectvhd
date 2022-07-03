@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity Project is
-	port(T, L, CLK, reset : in std_logic;
+	port(T, L, CLK, reset : in std;
 		M : in std_logic_vector (2 downto 0);
 		ConvertState : out std_logic_vector(1 downto 0);
 		Temperature : out std_logic;
